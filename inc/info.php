@@ -7,13 +7,13 @@
 			<li>
 				<h4> Cos'è Guitar Bazar </h4>
 					<p>
-					Guitar Bazar è un sito web d'esempio che simula un mercatino di chitarre usate online. <br/>
-					Dopo essersi registrato al sito, un utente potrà inserire annunci di vendita di una o più chitarre oppure, sfogliando gli annunci, <br/>
-					potrà cercarne e acquistarne.
-					Gli amministratori potranno visualizzare gli annunci e decidere se eliminarne (per qualsiasi motivo) oppure visualizzare gli <br/>
-					utenti registrati ed eliminarli dal sistema (se necessario). <br/>
-					L'acquisto verrà effettuato tramite una transazione e, dopo di essa, l'annuncio verrà rimosto dalla lista degli annunci e potrà essere visualizzato<br/>
-					solo dal venditore e dall'acquirente nell'apposita sezione.<br/>
+						Guitar Bazar è un sito web d'esempio che permette di eseguire alcune funzionalità presenti nei mercatini di strumenti usati online. <br/>
+						Un utente, dopo essersi registrato al sito, potrà inserire annunci di vendita di una o più chitarre oppure, sfogliando gli annunci,  <br/>
+						potrà cercarne e acquistarne. <br/>
+						Gli amministratori potranno visualizzare gli annunci oppure visualizzare gli utenti registrati ed eliminarli dal sistema (se necessario). <br/>
+						L'acquisto verrà effettuato tramite una transazione e, dopo di essa, l'annuncio verrà rimosto dalla lista degli annunci e potrà essere <br/>
+						visualizzato solo dal venditore e dall'acquirente nell'apposita sezione. Ci sono pochissimi controlli sull'input dell'utente e dunque, <br/>
+						eseguendo le prove bisogna cercare di imettere dati del giusto tipo a seconda del campo. <br/>
 					</p>
 			</li>
 			<br/>
