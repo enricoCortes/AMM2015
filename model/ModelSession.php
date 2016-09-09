@@ -5,7 +5,7 @@
 		private $db_host = 'localhost';
 		private $db_user = 'cortesEnrico';
 		private $db_password = 'pecora6558';
-		private $db_name = 'amm15_cortesEnrico ';
+		private $db_name = 'amm15_cortesEnrico';
 		private $mysqli = NULL;
 		public $idError = NULL;
 		public $msg = NULL;
