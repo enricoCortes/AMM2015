@@ -3,7 +3,7 @@
 	// mi permette di connettermi, disconnettermi ed eseguire query senza riscrivere le stesse cose ogni volta
 	class databaseUtility{
 		private $db_host = 'localhost';
-		private $db_user = 'enricoCortes';
+		private $db_user = 'cortesEnrico';
 		private $db_password = 'pecora6558';
 		private $db_name = 'amm15_cortesEnrico ';
 		private $mysqli = NULL;
