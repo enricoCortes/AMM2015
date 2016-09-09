@@ -1,0 +1,498 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: verdana;
+}
+
+hr{
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	display: block;
+	clear: both;
+}
+
+p.errorMessage{
+	color: red;
+	font-size: 15px;
+}
+p.successMessage{
+	color: green;
+	font-size: 15px;
+}
+
+/* STILE HEADER */
+div#header{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2%;
+	padding: 0;
+}
+div#header h1#siteName{
+	display: inline;
+	position: relative;
+	top: -35px;
+}
+div#header p{
+	display: inline;
+	font-size: 20;
+	position: relative;
+	top: -38px;
+	left: 150px;
+}
+/* FINE STILE HEADER */
+
+
+
+
+/* STILE TOP */
+div#top{
+	margin: 0;
+	margin-right: 2%;
+	padding: 0;
+}
+div#top ul{
+	list-style-type: none;
+}
+div#top ul li{
+	display: inline;
+	margin-right: 5px;
+	border-style: solid;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	background-color: #f2f2f2;
+}
+div#top ul li a:link{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	} 
+div#top ul li a:visited{
+	color: black;
+	} 	
+div#top ul li a:hover{
+	color: red;
+	}
+div#top ul li a:active{
+	color: pink;
+	}		
+/* FINE STILE TOP*/
+
+
+
+
+/* STILE SIDEBAR */
+div#sidebar{
+	margin: 0;
+	margin-top: 2%;
+	padding: 0;
+	width: 10%;
+	float: left;
+	margin-left: 2%;
+}
+div#sidebar a:link{
+	color: red;
+	text-decoration: none;
+}
+div#sidebar a:visited{
+	color: grey;
+}
+div#sidebar a:hover{
+	color: pink;
+	text-decoration: underline;
+}
+
+/* FINE STILE SIDEBAR */
+
+
+
+
+/* STILE CONTENT */
+div#content{
+	border-left: solid 1px;
+	margin: 0;
+	padding-left: 5px;
+	width: 85%;
+	float: right;
+	margin-right: 2%;
+	overflow: hidden;
+}
+/* FINE STILE CONTENT */
+
+
+
+
+/* STILE FOOTER*/
+div#footer{
+	padding: 10px;
+	clear: both;
+	text-align: center;
+}
+div#footer p{
+	font-size: 12;
+}
+/* FINE STILE FOOTER */
+
+
+
+/* STILE DIV INFO (INTERNO AL DIV CONTENT)*/
+div#info{
+	margin: 5%;
+	margin-top: 5%;
+}
+/* FINE STILE INFO */
+
+
+
+
+/* STILE DIV LOGIN (INTERNO AL DIV CONTENT) */
+div#schermataLogin{
+	margin: 10%;
+	margin-top: 6%;
+}
+div#schermataLogin h4{
+	display: inline;
+}
+div#schermataLogin p.sgn{
+	display: inline;
+	font-size: 11px;	
+}
+div#schermataLogin p a.linkRegistrazione:link, div#schermataLogin p a.linkRegistrazione:visited{
+	color: blue;
+}
+/* FINE STILE DIV LOGIN*/
+
+
+
+
+/* STILE DIV REGISTRAZIONE (INTERNO AL DIV CONTENT) */
+div#schermataSignin{
+	margin: 10%;
+	margin-top: 6%;
+}
+table#signinTable td.etichetta{
+	text-align: right;
+}
+/* FINE DIV REGISTRAZIONE */
+
+
+
+
+/* STILE DIV userTopBar (INTERNO AL DIV CONTENT) */
+div#userTopBar{
+	margin-left: 6%;
+	margin-top: 3.5%;
+	margin-bottom: 0px;
+	clear: left;
+}
+div#userTopBar p.welcome{
+	display: inline;
+}
+div#userTopBar p.welcome a{
+	text-decoration: none;
+}
+div#userTopBar form{
+	display: inline;
+}
+div#userTopBar input{
+	font-size: 18;
+	background: lightblue;
+	cursor: pointer;
+}
+div#userTopBar input:hover{
+	font-size: 18;
+	background: blue;
+}
+.linkAccount{
+	display: inline;
+	color: blue;
+	font-size: 11px;
+}
+/* FINE STILE DIV HOME */
+
+
+
+
+/*STILE DIV myAccount (INTERNO AL DIV CONTENT) */
+div#myAccount{
+	margin: 6%;
+	margin-top: 4%;
+}
+div#myAccount p.linkMieInserzioni{
+	display: inline;
+}
+div#myAccount p.linkMieInserzioni a:link, a:visited{
+	color: blue;
+}
+div#myAccount caption{
+	text-align: left;
+}
+div#myAccount tr.titolo{
+	text-align: center;
+}
+div#myAccount td.etichetta{
+	text-align: left;
+}
+/* FINE STILE DIV myAccount */
+
+
+
+
+/*STILE DIV INSERZIONI (INTERNO AL DIV CONTENT) */
+
+div#listaInserzioni{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+div#listaInserzioni div.inserzione{
+	clear: both;
+	margin-bottom: 65px;
+}
+div#listaInserzioni div.fotoArticolo{
+	float: left;
+	margin-left: 0px;
+	width: 15%;
+	display: inline;
+}
+div#listaInserzioni div.fotoArticolo img{
+	display: inline;
+	width: 130px;
+	height: 130px;
+	border: solid 1px;
+}
+
+
+div#listaInserzioni div.annuncio{
+	display: inline;
+	float: left;
+	width: 50%;
+}
+div#listaInserzioni div.annuncio p.titoloInserzione{
+	font-size: 22px;
+	height: 55px;
+	overflow: hidden;
+}
+div#listaInserzioni div.annuncio p.titoloInserzione a{
+	color: blue;
+	text-decoration: none;
+}
+div#listaInserzioni div.annuncio p.descrizioneInserzione{
+	font-size: 15px;
+	text-align: top;
+	height: 60px;
+	overflow: hidden;
+}
+
+
+div#listaInserzioni div.prezzo{
+	display: inline;
+	float: left;
+	width: 15%;
+}
+div#listaInserzioni div.prezzo p.prezzo{
+	font-size: 28px;
+}
+
+
+div#listaInserzioni div.utente{
+	display: inline;
+	clear: right;
+	width: 15%;
+}
+div#listaInserzioni div.utente p.nomeUtente{
+	font-size: 17px;
+}
+div#listaInserzioni div.utente p.zona{
+	font-size: 13px;
+}
+div#listaInserzioni div.utente p.dataInserzione{
+	font-size: 11px;
+}
+/*FINE DIV INSERZIONI */
+
+
+
+
+/*STILE DIV postDetails */
+div#postDetails{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+div#postDetails h2{
+	
+}
+
+
+div#postDetails div.fotoArticolo{
+	display: inline;
+	width: 380px;
+	height: 380px;
+	float: left;
+}
+div#postDetails div.fotoArticolo img{
+	border: solid 1px;
+	width: 380px;
+	height: 380px;
+}
+
+
+div#postDetails div.rightOfImage{
+	float: left;
+	margin-left: 8%;
+}
+div#postDetails div.rightOfImage div.prezzo{
+	float: left;
+}
+div#postDetails div.rightOfImage div.prezzo p{
+	font-size: 25px;
+}
+
+div#postDetails div.rightOfImage div.utenteZonaData{
+	clear: right;
+	margin-left: 57%;
+	margin-top: 12%;
+}
+div#postDetails div.rightOfImage div.utenteZonaData p.insertore{
+	font-size: 18px;
+}
+div#postDetails div.rightOfImage div.utenteZonaData p.citta{
+	font-size: 12px;
+	position: relative;
+	top: -10px;
+}
+div#postDetails div.rightOfImage div.utenteZonaData p.data{
+	font-size: 10px;
+	position: relative;
+	top: -20px;
+}
+
+div#postDetails div.rightOfImage div.buyButton{
+	clear: both;
+	position: relative;
+	top: -55px;
+	left: -15px;
+}
+div#postDetails div.rightOfImage div.buyButton input.acq{
+	background: lightgreen;
+	font-size: 25px;
+	border: 5px solid green;
+}
+div#postDetails div.rightOfImage div.buyButton input.acq:hover{
+	background: green;
+	font-size: 25px;
+	cursor: pointer;
+	border: 5px solid lightgreen;
+}
+div#postDetails div.rightOfImage div.buyButton input.nonacq{
+	background: #ff3333;
+	font-size: 25px;
+	border: 5px solid red;
+}
+div#postDetails div.rightOfImage div.buyButton input.nonacq:hover{
+	background: red;
+	font-size: 25px;
+	cursor: pointer;
+	border: 5px solid #ff3333;
+}
+
+div#postDetails div.descrizioneInserzione{
+	display: block;
+	clear: both;
+	margin-top: 30%;
+	margin-right: 20%;
+}
+
+
+
+div#inserzioniUtente{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+
+
+
+div#confermaAcquisto{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+
+
+
+div#nuovaInserzione{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+div#nuovaInserzione p.titolo{
+	font-size: 15px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+div#nuovaInserzione div.titolo input{
+	font-size: 20px;
+}	
+
+div#nuovaInserzione div.prezzo{
+	float: left;
+	margin-top: 3%;
+	margin-right: 6%;
+}
+div#nuovaInserzione div.extraInfo{
+	float: left;
+	margin-top: 3%;
+	margin-right: 6%;
+}
+	
+div#nuovaInserzione div.descrizione{
+	clear: both;
+	margin-top: 15%;
+}
+	
+div#nuovaInserzione div.conferma{
+	clear: both;
+	margin-top: 2%;
+}
+div#nuovaInserzione div.conferma input{
+	background: lightgreen;
+	font-size: 19;
+}		
+	
+/* STILI PER LE SCHERMATE DELL'AMMINISTRATORE */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+div#ammContent{
+	margin-left: 6%;
+	margin-top: 3%;
+}
+
+div#ammContent div.userSquare{
+	display: inline;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	border: 1px solid lightblue;
+	text-align: center;
+	overflow: auto;
+}
+div#ammContent div.userSquare p.nomeUtente{
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+div#ammContent div.userSquare p.genericInfo{
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
