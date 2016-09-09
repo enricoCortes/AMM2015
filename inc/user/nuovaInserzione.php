@@ -1,6 +1,7 @@
 
 <div id = "nuovaInserzione">
-
+	<?php if(isset($result) && $result == false) echo '<p class = "errorMessage">Non è stato possibile inserire l\'annuncio. Controlla che i campi siano corretti </p>';?>
+	
 	<h3> Nuova Inserzione </h3>
 	
 	<form action = "index.php?page=imettiAnnuncio" method = "post">
