@@ -38,7 +38,7 @@
 				<p>
 					<ol>
 						<li>AMMINISTRATORE --> Nome utente: <b>admin</b> Password: <b>administrator</b></li>
-						<li>Utente1 ---> NomeUtente: <b>enricocortes</b> Password: <b>enricocortespass</b> </li>
+						<li>Utente1 ---> NomeUtente: <b>enrico.cortes</b> Password: <b>enricocortespass</b> </li>
 						<li>Utente2 ---> NomeUtente: <b>italo.oberti</b> Password: <b>italoobertipass</b> </li>
 					</ol>
 				</p>
